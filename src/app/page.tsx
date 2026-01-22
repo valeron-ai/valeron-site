@@ -16,13 +16,13 @@ export default function Home() {
         </video>
 
         {/* V Logo - Bottom left corner */}
-        <div className="absolute bottom-6 left-6 z-10">
+        <div className="absolute bottom-6 left-6 z-10 flex h-16 w-16 items-center justify-center rounded-full bg-[#141414]">
           <Image
             src="/assets/v-logo.png"
             alt="Valeron logo"
-            width={56}
-            height={56}
-            className="h-14 w-14"
+            width={36}
+            height={36}
+            className="h-9 w-9"
           />
         </div>
       </div>
