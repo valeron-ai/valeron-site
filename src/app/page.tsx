@@ -29,14 +29,14 @@ export default function Home() {
 
       {/* Content Section */}
       <div className="flex h-1/2 w-full flex-col items-center justify-center bg-[#141414] px-8 md:h-full md:w-1/2 md:px-16">
-        <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col items-center md:items-start gap-12 md:gap-16">
           {/* VALERON Wordmark */}
           <Image
             src="/assets/valeron-wordmark.png"
             alt="VALERON"
             width={280}
             height={48}
-            className="mb-8 h-auto w-48 md:w-64 lg:w-72"
+            className="h-auto w-48 md:w-64 lg:w-72"
             priority
           />
 
