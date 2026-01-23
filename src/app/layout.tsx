@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Valeron",
   description: "The best way to predict the future is to invent it.",
   icons: {
-    icon: "/assets/v-logo.png",
+    icon: "/valeron_ico.svg",
   },
 };
 
