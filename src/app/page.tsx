@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex h-screen w-full flex-col md:flex-row">
+    <main className="flex h-screen w-full flex-col md:flex-row overflow-hidden">
       {/* Video Section - Full height on desktop, half on mobile */}
       <div className="relative h-1/2 w-full md:h-full md:w-1/2">
         <video
@@ -47,6 +48,15 @@ export default function Home() {
             is to invent it.
           </p>
         </div>
+
+        <footer className="absolute bottom-6 right-6 md:bottom-8 md:right-8">
+          <Link
+            href="/privacy"
+            className="text-xs uppercase tracking-wider text-neutral-500 hover:text-neutral-300 transition-colors"
+          >
+            Privacy
+          </Link>
+        </footer>
       </div>
     </main>
   );
